@@ -11,5 +11,6 @@
     @include('partials.header')
     @yield('pageMain')
     @include('partials.links')
+    @include('partials.footer')
 </body>
 </html>

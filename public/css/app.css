@@ -113,3 +113,43 @@ ul li a:hover {
   text-align: center;
 }
 
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer figure {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.social-footer {
+  height: 70px;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-footer .my_button {
+  display: inline-block;
+  border: 2px solid rgb(2, 130, 249);
+  padding: 5px;
+  color: white;
+}
+
+.social-footer .icon_social {
+  color: rgb(2, 130, 249);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-footer .icon_social img {
+  margin: 0 10px;
+}
+

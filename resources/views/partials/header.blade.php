@@ -1,10 +1,9 @@
 <header>
-    <header>
-        <a href="">
-          <img src="{{asset('img/dc-logo.png')}}" alt="Logo DC">
-        </a>
-        <nav>
-          <ul>
+    <a href="">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC">
+    </a>
+    <nav>
+        <ul>
             <li><a href="#">Ciao</a></li>
             <li>
                 <a href="#">Characters</a>
@@ -18,8 +17,7 @@
                 <a href="#">News</a>
                 <a href="#">Shop</a>
             </li>
-          </ul>
-        </nav>
-    
-      </header>
+        </ul>
+    </nav>
+
 </header>
