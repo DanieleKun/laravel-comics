@@ -10,5 +10,6 @@
 <body>
     @include('partials.header')
     @yield('pageMain')
+    @include('partials.links')
 </body>
 </html>
