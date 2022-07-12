@@ -8,20 +8,20 @@ return [
     ],
 
     [
-        "url" => "img/buy-comics-digital-comics.png",
+        "url" => "img/buy-comics-merchandise.png",
         "name" => "DC Merchandise"
     ],
     [
-        "url" => "img/buy-comics-digital-comics.png",
+        "url" => "img/buy-comics-subscriptions.png",
         "name" => "Subscription"
     ],
 
     [
-        "url" => "img/buy-comics-digital-comics.png",
+        "url" => "img/buy-comics-shop-locator.png",
         "name" => "Comic Shop Locator"
     ],
     [
-        "url" => "img/buy-comics-digital-comics.png",
+        "url" => "img/buy-dc-power-visa.svg",
         "name" => "Dc Power Visa"
     ],
 ];
