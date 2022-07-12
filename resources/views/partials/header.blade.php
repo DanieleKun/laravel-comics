@@ -4,7 +4,6 @@
     </a>
     <nav>
         <ul>
-            <li><a href="#">Ciao</a></li>
             <li>
                 <a href="#">Characters</a>
                 <a href="#">Comics</a>
