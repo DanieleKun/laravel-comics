@@ -6,6 +6,10 @@ $color_blue: rgb(2, 130, 249);
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-around;

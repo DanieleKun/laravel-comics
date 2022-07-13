@@ -23,7 +23,7 @@
                             <h2>{{ $comic['title'] }}</h2>
                             <div class="price_available">
                                 <h4>U.S. Price: {{ $comic['price'] }}</h4>
-                                <h4>AVAIlaBLE</h4>
+                                <h4>AVAILABLE</h4>
                                 <h4>Check Availability</h4>
                             </div>
                             <div class="desc">
@@ -33,7 +33,7 @@
 
                         <div class="adv_container">
                             <h3>ADVERTISEMENT</h3>
-                            <img src="{{ asset('img/adv.jpg') }}" alt="">
+                            <img src="{{asset ('img/adv.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="container_spec">
