@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $arrComics = config('comics');
     $arrLinks = config('linkscomic');
+    $arrNav = config('navlink');
     return view('home', [
         'arrComics' => $arrComics,
         'arrLinks' => $arrLinks,
+        'arrNav' => $arrNav,
+
     ]);
 })->name('home');
