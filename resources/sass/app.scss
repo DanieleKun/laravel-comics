@@ -108,8 +108,9 @@ ul {
         }
 
         .desc{
-            max-width: 60%;
-            color: gray
+            max-width: 80%;
+            color: gray;
+            margin: 20px 0;
         }
 
         .adv_container{
@@ -119,6 +120,10 @@ ul {
 
         .container_spec{
             background-color: #F6F6F6;
+            border-top: 1px solid darkgray;
+            a{
+                text-decoration: none;
+            }
 
             h2{
                 color: #003F5E; 
@@ -134,8 +139,14 @@ ul {
                 width: 60%;
             }
 
+            .desc_talent{
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+
             .spec{
-                width: 40%;
+                width: 35%;
+                margin-left: 50px;
 
                 a{
                     text-decoration: none;

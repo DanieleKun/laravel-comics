@@ -105,8 +105,9 @@ ul li a:hover {
 }
 
 .comics-content .comic_container_bg .desc {
-  max-width: 60%;
+  max-width: 80%;
   color: gray;
+  margin: 20px 0;
 }
 
 .comics-content .comic_container_bg .adv_container {
@@ -116,6 +117,11 @@ ul li a:hover {
 
 .comics-content .comic_container_bg .container_spec {
   background-color: #F6F6F6;
+  border-top: 1px solid darkgray;
+}
+
+.comics-content .comic_container_bg .container_spec a {
+  text-decoration: none;
 }
 
 .comics-content .comic_container_bg .container_spec h2 {
@@ -132,8 +138,14 @@ ul li a:hover {
   width: 60%;
 }
 
+.comics-content .comic_container_bg .container_spec .desc_talent {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .comics-content .comic_container_bg .container_spec .spec {
-  width: 40%;
+  width: 35%;
+  margin-left: 50px;
 }
 
 .comics-content .comic_container_bg .container_spec .spec a {
